@@ -1,0 +1,105 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #bdbdbd ;
+}
+
+p {
+  line-height: 2rem;
+}
+
+#bannertext{
+  outline: solid;
+    color: black;
+}
+.sidenav-trigger {
+  color: #ffca28 ;
+  background-color: black;
+}
+
+.parallax-container {
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  color: #bdbdbd;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  h1{
+    color: #ffca28 ;
+    outline-color: black;
+   
+  }
+
+  h4{
+    color: #ffca28 ;
+    outline-color: black;
+  }
+
+  h5{
+    color:black;
+  }
+
+#welcome{
+    color: black;
+    font-weight: bolder;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+#bio{
+  color: black;
+}
+
+#bg1{
+  opacity: 60%;
+}
+
+#bg2{
+  opacity: 50%;
+}
+
+#bg3{
+  opacity: 90%;
+
+}
+
+#submittc{
+  width: 100%;
+  background-color: #ffca28 ;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
