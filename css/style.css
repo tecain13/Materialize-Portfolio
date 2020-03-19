@@ -16,8 +16,9 @@ p {
 }
 
 #bannertext{
-  outline: solid;
-    color: black;
+ 
+    color:#ffb300;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .sidenav-trigger {
   color: #ffca28 ;
@@ -34,12 +35,20 @@ p {
     width: 100%;
   }
 
-  h1{
-    color: #ffb300;
-    outline-color: black;
-   
+  #data{
+    color: #ffca28 ;
   }
 
+  #gov{
+    color: #ffca28 ;
+  }
+
+  
+  #web{
+    color: #ffca28 ;
+  }
+
+  
   h4{
     color: #ffca28 ;
     outline-color: black;
@@ -51,7 +60,7 @@ p {
 
 #welcome{
     color: black;
-    font-weight: bolder;
+    
   }
 
 @media only screen and (max-width : 992px) {
@@ -65,7 +74,8 @@ p {
 }
 
 #bio{
-  color: black;
+  color:white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #bg1{
