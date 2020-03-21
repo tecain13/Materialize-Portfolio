@@ -20,6 +20,7 @@ p {
     color:#ffb300;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
 .sidenav-trigger {
   color: #ffca28 ;
   background-color: black;
@@ -59,9 +60,9 @@ p {
   }
 
 #welcome{
-    color: black;
-    
+    color: black;  
   }
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -95,6 +96,15 @@ p {
   width: 100%;
   background-color: #ffca28 ;
   margin-bottom: 10px;
+}
+
+#resume{
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  background-color: #ffca28 ;
 }
 
 @media only screen and (max-width : 600px) {
